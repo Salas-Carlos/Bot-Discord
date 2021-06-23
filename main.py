@@ -110,7 +110,7 @@ async def on_ready():
     scheduler.start()
     
 
-bot.run('ODUwOTI2MzQ3MzgzNDcyMTU4.YLw06g.LOZoOoQZFBPzq1kjkG69p8exOU0')
+bot.run('')
 
 
 
