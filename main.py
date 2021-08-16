@@ -98,8 +98,6 @@ async def meeting(ctx, * , informationGeneral):
 
  #-------------------------------------------------------------------------------------------
 
-
-
 def jobs():
     job = Meet().addJobs(scheduler,bot)
    
@@ -108,7 +106,6 @@ async def on_ready():
     scheduler.add_job(jobs, 'interval', seconds = 5)
     print('My Bot is Ready')
     scheduler.start()
-    
 
 bot.run('')
 
